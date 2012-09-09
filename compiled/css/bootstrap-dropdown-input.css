@@ -1,0 +1,52 @@
+/*!
+ * DropDown Input for Bootstrap
+ *
+ * Copyright 2012 Alex Simonov
+ * Licensed under the MIT License
+ *
+ */
+.bootstrap-dropdowninput.dropdown-menu {
+  padding: 4px;
+  margin-top: 1px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  min-width: 10px;
+}
+.bootstrap-dropdowninput.dropdown-menu.open {
+  display: inline-block;
+}
+.bootstrap-dropdowninput.dropdown-menu:before {
+  content: '';
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: -7px;
+  left: 6px;
+}
+.bootstrap-dropdowninput.dropdown-menu:after {
+  content: '';
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #ffffff;
+  position: absolute;
+  top: -6px;
+  left: 7px;
+}
+.bootstrap-dropdowninput a {
+  border: 1px transparent solid;
+  width: 3em;
+  display: inline-block;
+  margin: 0;
+  padding: 8px 0;
+  outline: 0;
+}
+.bootstrap-dropdowninput a i {
+  margin-top: 2px;
+}
+.bootstrap-dropdowninput input {
+  margin: 0;
+  text-align: center;
+}
